@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Tip Calculator</h1>
+            <div class="bill">
+                <label for="amount" class="symbol">TL</label>              
+                <input type="text" id="amount">
+            </div>
+            <div class="tipPercentage">
+                <label>Tip: </label>
+                <input type="range" id="tip" min="0" max="100" value="0">
+                <label class="percentage">0%</label>
+            </div>
+        </div>
+        <div class="body">
+            <h1>Results</h1>
+            <div class="tipAmount">
+                <label>Tip Amount</label>
+                <input type="text" class="onlytip">
+            </div>
+            <div class="billwtip">
+                <label>Total Bill with Tip</label>
+                <input type="text" class="bwtip">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
